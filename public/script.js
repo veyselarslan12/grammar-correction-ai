@@ -16,8 +16,11 @@ document.getElementById('description-form').addEventListener('submit', async (ev
 
         if (response.ok) {
             const data = await response.json()
+            const text = document.createElement('p')
+            text.textContent = data
+            result.appendChild(text)
         }
     } catch (error) {
-        
+        console.log(error)
     }
 })
