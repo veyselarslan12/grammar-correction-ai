@@ -1,7 +1,7 @@
 # grammar-correction-ai
 
 ## Description
-* This project is a simple web application that generates grammar correction using the OpenAI API. The application allows users to input a prompt and receive a list of generated questions in response.
+* This project is a simple web application that generates grammar correction using the OpenAI API. The application allows users to input a prompt and receive a sentences that corrected grammarly by AI.
 
 ## Installation
 * Clone the repository
